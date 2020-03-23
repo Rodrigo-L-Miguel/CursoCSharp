@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtvFixacao1", "AtvFixacao1\AtvFixacao1.csproj", "{64C66000-033B-4B0D-8DEF-192DA75E1578}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C66000-033B-4B0D-8DEF-192DA75E1578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C66000-033B-4B0D-8DEF-192DA75E1578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C66000-033B-4B0D-8DEF-192DA75E1578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C66000-033B-4B0D-8DEF-192DA75E1578}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE0945C6-BA3F-42B0-912C-8ED402DEB720}
+	EndGlobalSection
+EndGlobal
