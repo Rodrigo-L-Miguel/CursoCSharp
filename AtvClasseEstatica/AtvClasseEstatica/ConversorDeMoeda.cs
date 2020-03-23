@@ -10,8 +10,8 @@ namespace AtvClasseEstatica
 
         public static double ConverterDollar(double valor,double cotacao)
         {
-
-            return valor * cotacao * IOF;
+            double valorTotal = (valor * cotacao);
+            return valorTotal + (valorTotal * IOF);
 
         }
 
