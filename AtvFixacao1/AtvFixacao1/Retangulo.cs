@@ -6,8 +6,8 @@ namespace AtvFixacao1
 {
     class Retangulo
     {
-        protected double Largura;
-        protected double Altura;
+        public double Largura;
+        public double Altura;
 
 
         public double Area()
