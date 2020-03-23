@@ -1,0 +1,13 @@
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\bin\Debug\netcoreapp3.1\AtvClasseEstatica.exe
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\bin\Debug\netcoreapp3.1\AtvClasseEstatica.deps.json
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\bin\Debug\netcoreapp3.1\AtvClasseEstatica.runtimeconfig.json
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\bin\Debug\netcoreapp3.1\AtvClasseEstatica.runtimeconfig.dev.json
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\bin\Debug\netcoreapp3.1\AtvClasseEstatica.dll
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\bin\Debug\netcoreapp3.1\AtvClasseEstatica.pdb
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\obj\Debug\netcoreapp3.1\AtvClasseEstatica.csprojAssemblyReference.cache
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\obj\Debug\netcoreapp3.1\AtvClasseEstatica.csproj.CoreCompileInputs.cache
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\obj\Debug\netcoreapp3.1\AtvClasseEstatica.AssemblyInfoInputs.cache
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\obj\Debug\netcoreapp3.1\AtvClasseEstatica.AssemblyInfo.cs
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\obj\Debug\netcoreapp3.1\AtvClasseEstatica.dll
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\obj\Debug\netcoreapp3.1\AtvClasseEstatica.pdb
+C:\CursoCSharp\AtvClasseEstatica\AtvClasseEstatica\obj\Debug\netcoreapp3.1\AtvClasseEstatica.genruntimeconfig.cache
