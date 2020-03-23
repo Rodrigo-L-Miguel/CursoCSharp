@@ -13,13 +13,14 @@ namespace AtvFixacao3
 
         public void Aprovacao()
         {
-            if (NotaFinal() <= 60)
+            if (NotaFinal() >= 60)
             {
-                
+                Console.WriteLine("Aprovado!");
             }
             else
             {
-                Console.WriteLine("");
+                Console.WriteLine("Reprovado!");
+                Console.WriteLine("Faltam "+ (60 - NotaFinal()));
             }
 
         }

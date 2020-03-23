@@ -1,0 +1,13 @@
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\bin\Debug\netcoreapp3.1\AtvFixacao3.exe
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\bin\Debug\netcoreapp3.1\AtvFixacao3.deps.json
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\bin\Debug\netcoreapp3.1\AtvFixacao3.runtimeconfig.json
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\bin\Debug\netcoreapp3.1\AtvFixacao3.runtimeconfig.dev.json
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\bin\Debug\netcoreapp3.1\AtvFixacao3.dll
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\bin\Debug\netcoreapp3.1\AtvFixacao3.pdb
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\obj\Debug\netcoreapp3.1\AtvFixacao3.csprojAssemblyReference.cache
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\obj\Debug\netcoreapp3.1\AtvFixacao3.csproj.CoreCompileInputs.cache
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\obj\Debug\netcoreapp3.1\AtvFixacao3.AssemblyInfoInputs.cache
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\obj\Debug\netcoreapp3.1\AtvFixacao3.AssemblyInfo.cs
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\obj\Debug\netcoreapp3.1\AtvFixacao3.dll
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\obj\Debug\netcoreapp3.1\AtvFixacao3.pdb
+C:\CursoCSharp\AtvFixacao3\AtvFixacao3\obj\Debug\netcoreapp3.1\AtvFixacao3.genruntimeconfig.cache
