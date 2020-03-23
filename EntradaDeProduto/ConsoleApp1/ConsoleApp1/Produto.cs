@@ -15,5 +15,16 @@ namespace EntradaDeProduto
             return TotalEstoque * Preco;
         }
 
+        public int AdicionarAoEstoque(int quantidadeAdicionar)
+        {
+            TotalEstoque += quantidadeAdicionar;
+            return TotalEstoque;
+        }
+
+        public int RemoverProduto (int quantidadeRemover)
+        {
+            TotalEstoque -= quantidadeRemover;
+            return TotalEstoque;
+        }
     }
 }
