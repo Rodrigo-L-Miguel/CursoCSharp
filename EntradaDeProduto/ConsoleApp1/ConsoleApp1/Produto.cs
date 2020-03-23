@@ -11,15 +11,11 @@ namespace EntradaDeProduto
         private int Quantidade;
         private double Preco;
 
-        public void InformarDados()
+        public  Produto(string nome,double preco,int quantidade)
         {
-            Console.WriteLine("Entre os dados do produto:");
-            Console.Write("Nome: ");
-            Nome = Console.ReadLine();
-            Console.Write("Preço: ");
-            Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.Write("Quantidade no estoque: ");
-            Quantidade = int.Parse(Console.ReadLine());
+            Nome = nome;
+            Preco = preco;
+            Quantidade = quantidade;
         }
         
         public double ValorTotalEstoque()

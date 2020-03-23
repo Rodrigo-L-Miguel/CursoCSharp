@@ -8,9 +8,16 @@ namespace EntradaDeProduto
     {
         static void Main(string[] args)
         {
-            Produto produto = new Produto();
+            Console.WriteLine("Entre os dados do produto:");
+            Console.Write("Nome: ");
+            string nome = Console.ReadLine();
+            Console.Write("Preço: ");
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Quantidade no estoque: ");
+            int quantidade = int.Parse(Console.ReadLine());
+            
+            Produto produto = new Produto(nome,preco,quantidade);
 
-            produto.InformarDados();
             produto.DadosDoProduto();
             produto.AdicionarAoEstoque();
             produto.RemoverDoEstoque();
