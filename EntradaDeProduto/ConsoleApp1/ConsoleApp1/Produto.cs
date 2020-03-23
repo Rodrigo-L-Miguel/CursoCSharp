@@ -7,10 +7,21 @@ namespace EntradaDeProduto
 {
     class Produto
     {
-        public string Nome;
-        public int Quantidade;
-        public double Preco;
+        private string Nome;
+        private int Quantidade;
+        private double Preco;
 
+        public void InformarDados()
+        {
+            Console.WriteLine("Entre os dados do produto:");
+            Console.Write("Nome: ");
+            Nome = Console.ReadLine();
+            Console.Write("Preço: ");
+            Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Quantidade no estoque: ");
+            Quantidade = int.Parse(Console.ReadLine());
+        }
+        
         public double ValorTotalEstoque()
         {
             return Quantidade * Preco;
