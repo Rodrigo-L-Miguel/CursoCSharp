@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Globalization;
 
 namespace EntradaDeProduto
 {
@@ -15,19 +16,26 @@ namespace EntradaDeProduto
             return Quantidade * Preco;
         }
 
-        public void AdicionarAoEstoque(int quantidadeAdicionar)
+        public void AdicionarAoEstoque()
         {
-            Quantidade += quantidadeAdicionar;
+            Console.Write("Digite o numero de produtos a serem adicionados:");
+            Quantidade += int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            DadosDoProduto();           
         }
 
-        public void RemoverDoEstoque(int quantidadeRemover)
+        public void RemoverDoEstoque()
         {
-            Quantidade -= quantidadeRemover;
+            Console.Write("Digite o numero de produtos a serem removidos:");
+            Quantidade -= int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            DadosDoProduto();
         }
 
-        public override string ToString()
+        public void DadosDoProduto()
         {
-            return Nome + ", $" + Preco + ", " + Quantidade + " unidades, Total: $" + ValorTotalEstoque();
+            Console.WriteLine("Dados do produto:"
+                +Nome+ " Preço: $"
+                +Preco+" Quantidade: "
+                +Quantidade+ " Valor total:" + ValorTotalEstoque());
         }
 
     }
