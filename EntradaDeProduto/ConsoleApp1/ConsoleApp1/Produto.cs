@@ -7,24 +7,28 @@ namespace EntradaDeProduto
     class Produto
     {
         public string Nome;
-        public int TotalEstoque;
+        public int Quantidade;
         public double Preco;
 
         public double ValorTotalEstoque()
         {
-            return TotalEstoque * Preco;
+            return Quantidade * Preco;
         }
 
-        public int AdicionarAoEstoque(int quantidadeAdicionar)
+        public void AdicionarAoEstoque(int quantidadeAdicionar)
         {
-            TotalEstoque += quantidadeAdicionar;
-            return TotalEstoque;
+            Quantidade += quantidadeAdicionar;
         }
 
-        public int RemoverProduto (int quantidadeRemover)
+        public void RemoverDoEstoque(int quantidadeRemover)
         {
-            TotalEstoque -= quantidadeRemover;
-            return TotalEstoque;
+            Quantidade -= quantidadeRemover;
         }
+
+        public override string ToString()
+        {
+            return Nome + ", $" + Preco + ", " + Quantidade + " unidades, Total: $" + ValorTotalEstoque();
+        }
+
     }
 }

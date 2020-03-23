@@ -1,0 +1,13 @@
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\EntradaDeProduto.exe
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\EntradaDeProduto.deps.json
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\EntradaDeProduto.runtimeconfig.json
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\EntradaDeProduto.runtimeconfig.dev.json
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\EntradaDeProduto.dll
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\EntradaDeProduto.pdb
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\EntradaDeProduto.csprojAssemblyReference.cache
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\EntradaDeProduto.csproj.CoreCompileInputs.cache
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\EntradaDeProduto.AssemblyInfoInputs.cache
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\EntradaDeProduto.AssemblyInfo.cs
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\EntradaDeProduto.dll
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\EntradaDeProduto.pdb
+C:\CursoCSharp\EntradaDeProduto\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\EntradaDeProduto.genruntimeconfig.cache
