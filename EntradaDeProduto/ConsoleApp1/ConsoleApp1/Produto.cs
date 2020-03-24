@@ -7,33 +7,56 @@ namespace EntradaDeProduto
 {
     class Produto
     {
-        private string Nome;
-        private int Quantidade;
-        private double Preco;
+        private string _nome;
+        private int _quantidade;
+        private double _preco;
 
-        public  Produto(string nome,double preco,int quantidade)
+        public Produto(string nome, double preco, int quantidade)
         {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = quantidade;
+            _nome = nome;
+            _preco = preco;
+            _quantidade = quantidade;
         }
-        
-        public double ValorTotalEstoque()
+
+        public string Nome
         {
-            return Quantidade * Preco;
+            get { return _nome; }
+            set
+            {
+                if (value != null && value.Length > 1)
+                {
+                    _nome = value;
+                }
+            }
+
+        }
+
+        public double Preco
+        {
+            get { return _preco; }
+        }
+
+        public double Quantidade
+        {
+            get { return _quantidade; }
+        }
+
+        public double ValorTotalEstoque
+        {
+            get { return _quantidade * _preco; }
         }
 
         public void AdicionarAoEstoque()
         {
             Console.Write("Digite o numero de produtos a serem adicionados:");
-            Quantidade += int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            _quantidade += int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             DadosDoProduto();           
         }
 
         public void RemoverDoEstoque()
         {
             Console.Write("Digite o numero de produtos a serem removidos:");
-            Quantidade -= int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            _quantidade -= int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             DadosDoProduto();
         }
 
@@ -42,7 +65,7 @@ namespace EntradaDeProduto
             Console.WriteLine("Dados do produto:"
                 +Nome+ " Preço: $"
                 +Preco+" Quantidade: "
-                +Quantidade+ " Valor total:" + ValorTotalEstoque());
+                +Quantidade+ " Valor total:" + ValorTotalEstoque);
         }
 
     }
