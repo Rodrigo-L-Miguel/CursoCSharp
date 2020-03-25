@@ -8,14 +8,15 @@ namespace EntradaDeProduto
     class Produto
     {
         private string _nome;
-        private int _quantidade;
-        private double _preco;
+        public int Quantidade { get; private set; }
+        public double Preco { get; private set; }
+
 
         public Produto(string nome, double preco, int quantidade)
         {
             _nome = nome;
-            _preco = preco;
-            _quantidade = quantidade;
+            Preco = preco;
+            Quantidade = quantidade;
         }
 
         public string Nome
@@ -31,32 +32,22 @@ namespace EntradaDeProduto
 
         }
 
-        public double Preco
-        {
-            get { return _preco; }
-        }
-
-        public double Quantidade
-        {
-            get { return _quantidade; }
-        }
-
         public double ValorTotalEstoque
         {
-            get { return _quantidade * _preco; }
+            get { return Quantidade * Preco; }
         }
 
         public void AdicionarAoEstoque()
         {
             Console.Write("Digite o numero de produtos a serem adicionados:");
-            _quantidade += int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Quantidade += int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             DadosDoProduto();           
         }
 
         public void RemoverDoEstoque()
         {
             Console.Write("Digite o numero de produtos a serem removidos:");
-            _quantidade -= int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Quantidade -= int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             DadosDoProduto();
         }
 
