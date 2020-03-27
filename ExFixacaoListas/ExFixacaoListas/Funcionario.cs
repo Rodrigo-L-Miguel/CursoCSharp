@@ -17,6 +17,9 @@ namespace ExFixacaoListas
             Salario = salario;
         }
            
+        
+        public void PreencherFuncionarios(ID)
+        
         public void Aumento( double porcentagem)
         {
             Salario += Salario*porcentagem/100;
