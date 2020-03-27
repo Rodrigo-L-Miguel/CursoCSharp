@@ -8,7 +8,7 @@ namespace ExFixacaoListas
     {
         public int ID { get; set; }
         public string Nome { get; set; }
-        public  double Salario { get; set; }
+        public  double Salario { get; private set; }
 
         public Funcionario(int iD, string nome, double salario)
         {
@@ -17,12 +17,16 @@ namespace ExFixacaoListas
             Salario = salario;
         }
            
-        public void Aumento(int id, double porcentagem)
+        public void Aumento( double porcentagem)
         {
-            Salario += porcentagem * Salario;
+            Salario += Salario*porcentagem/100;
 
         }
-    
-    
+
+        public override string ToString()
+        {
+            return ID + ", " + Salario;
+        }
+
     }
 }

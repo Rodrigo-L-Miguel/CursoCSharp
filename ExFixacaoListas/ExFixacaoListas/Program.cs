@@ -23,10 +23,34 @@ namespace ExFixacaoListas
                 Console.Write("Salario: ");
                 double salario = double.Parse(Console.ReadLine());
                 funcionario.Add(new Funcionario(id, nome, salario));
-
+                Console.WriteLine();
             }
 
-            Console.WriteLine(funcionario.ToString());
+            Console.Write("Entre com o ID do funcionário que receberá aumento: ");
+            int idProcura = int.Parse(Console.ReadLine());
+            Console.Write("Informe a porcentagem do aumento: ");
+            int aumento = int.Parse(Console.ReadLine());
+
+            Funcionario funcionarioBusca = funcionario.Find(x => x.ID == idProcura);
+            if (funcionarioBusca != null)
+            {
+                Console.Write("Informe a porcentagem: ");
+                double porcentagem = double.Parse(Console.ReadLine());
+                funcionarioBusca.Aumento(porcentagem);
+
+            }
+            else
+                Console.WriteLine("Este funcionario não existe!!");
+
+
+            Console.WriteLine();
+            Console.WriteLine("Lista de funcionarios atulizada: ");
+            foreach (Funcionario obj in funcionario)
+            {
+                Console.WriteLine(obj);
+            }
+            
+            
         }
     }
 }
