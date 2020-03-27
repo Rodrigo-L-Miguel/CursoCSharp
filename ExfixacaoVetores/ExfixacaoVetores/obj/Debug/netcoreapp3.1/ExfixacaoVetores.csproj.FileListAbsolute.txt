@@ -1,0 +1,13 @@
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\bin\Debug\netcoreapp3.1\ExfixacaoVetores.exe
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\bin\Debug\netcoreapp3.1\ExfixacaoVetores.deps.json
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\bin\Debug\netcoreapp3.1\ExfixacaoVetores.runtimeconfig.json
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\bin\Debug\netcoreapp3.1\ExfixacaoVetores.runtimeconfig.dev.json
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\bin\Debug\netcoreapp3.1\ExfixacaoVetores.dll
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\bin\Debug\netcoreapp3.1\ExfixacaoVetores.pdb
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\obj\Debug\netcoreapp3.1\ExfixacaoVetores.csprojAssemblyReference.cache
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\obj\Debug\netcoreapp3.1\ExfixacaoVetores.csproj.CoreCompileInputs.cache
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\obj\Debug\netcoreapp3.1\ExfixacaoVetores.AssemblyInfoInputs.cache
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\obj\Debug\netcoreapp3.1\ExfixacaoVetores.AssemblyInfo.cs
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\obj\Debug\netcoreapp3.1\ExfixacaoVetores.dll
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\obj\Debug\netcoreapp3.1\ExfixacaoVetores.pdb
+C:\CursoCSharp\ExfixacaoVetores\ExfixacaoVetores\obj\Debug\netcoreapp3.1\ExfixacaoVetores.genruntimeconfig.cache

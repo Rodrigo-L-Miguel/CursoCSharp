@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExfixacaoVetores", "ExfixacaoVetores\ExfixacaoVetores.csproj", "{1F7CEE7D-0F1F-45C8-A4DE-4CEA79F8780B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F7CEE7D-0F1F-45C8-A4DE-4CEA79F8780B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7CEE7D-0F1F-45C8-A4DE-4CEA79F8780B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7CEE7D-0F1F-45C8-A4DE-4CEA79F8780B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7CEE7D-0F1F-45C8-A4DE-4CEA79F8780B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3824F7A-C3B5-4DBC-8915-E5FBEC743697}
+	EndGlobalSection
+EndGlobal
