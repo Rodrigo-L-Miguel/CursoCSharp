@@ -1,0 +1,13 @@
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\bin\Debug\netcoreapp3.1\ExFixacaoListas.exe
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\bin\Debug\netcoreapp3.1\ExFixacaoListas.deps.json
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\bin\Debug\netcoreapp3.1\ExFixacaoListas.runtimeconfig.json
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\bin\Debug\netcoreapp3.1\ExFixacaoListas.runtimeconfig.dev.json
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\bin\Debug\netcoreapp3.1\ExFixacaoListas.dll
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\bin\Debug\netcoreapp3.1\ExFixacaoListas.pdb
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\obj\Debug\netcoreapp3.1\ExFixacaoListas.csprojAssemblyReference.cache
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\obj\Debug\netcoreapp3.1\ExFixacaoListas.csproj.CoreCompileInputs.cache
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\obj\Debug\netcoreapp3.1\ExFixacaoListas.AssemblyInfoInputs.cache
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\obj\Debug\netcoreapp3.1\ExFixacaoListas.AssemblyInfo.cs
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\obj\Debug\netcoreapp3.1\ExFixacaoListas.dll
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\obj\Debug\netcoreapp3.1\ExFixacaoListas.pdb
+C:\CursoCSharp\ExFixacaoListas\ExFixacaoListas\obj\Debug\netcoreapp3.1\ExFixacaoListas.genruntimeconfig.cache
