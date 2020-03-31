@@ -4,31 +4,28 @@ namespace ExFixacaoMatriz
 {
     class Program
     {
-        /*Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz de M linhas por N colunas 
-         * contendo números inteiros, podendo haver repetições. Em seguida, ler um número inteiro X que pertence à matriz. 
-         * Para cada ocorrência de X, mostrar os valores à esquerda, acima, à direita e abaixo de X, quando houver, 
-         * conforme exemplo.*/
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Please, insert the dimentions: ");
-            string[] dimentions = Console.ReadLine().Split(' ');//coleta as dimensões da matriz.
+            string[] dimentions = Console.ReadLine().Split(' ');//Get the dimentions for the matriz
 
 
-            double[,] matrix = new double[int.Parse(dimentions[0]), int.Parse(dimentions[1])];//cria a matriz com as dimensões informadas
+            double[,] matrix = new double[int.Parse(dimentions[0]), int.Parse(dimentions[1])];
 
-            //preenchimento da matriz
-            for (int i = 0; i < int.Parse(dimentions[0]); i++)//percorre as linhas da matriz 
+            //fill in the matrix
+            for (int i = 0; i < int.Parse(dimentions[0]); i++)
             {
                 Console.Write("Inform the numbers of the line " + i + ": ");
-                string[] values = Console.ReadLine().Split(' ');// coleta os dados informados para serem inseridos na linha
+                string[] values = Console.ReadLine().Split(' ');
 
-                for (int j = 0; j < int.Parse(dimentions[1]); j++)//percorre as colunas da matriz
+                for (int j = 0; j < int.Parse(dimentions[1]); j++)
                 {
-                    matrix[i, j] = double.Parse(values[j]);// preenche a linha da matriz com os valores informados 
+                    matrix[i, j] = double.Parse(values[j]);
                 }
             }
 
-            //Imprime na tela a matriz
+            //Print the matrix
             for (int i = 0; i < int.Parse(dimentions[0]); i++)
             {
                 for (int j = 0; j < int.Parse(dimentions[1]); j++)
@@ -41,7 +38,7 @@ namespace ExFixacaoMatriz
             Console.Write("Inform the value to be located: ");
             double numberSearch = double.Parse(Console.ReadLine());
 
-            // Busca o numero na matriz e informa sua posição
+            // Search number in the matrix and inform his position and the number around him 
             for (int i = 0; i < int.Parse(dimentions[0]); i++)
             {
                 for (int j = 0; j < int.Parse(dimentions[1]); j++)
