@@ -39,16 +39,16 @@ namespace ExFixacaoMatriz
             }
            
             Console.Write("Inform the value to be located: ");
-            double numeroBusca = double.Parse(Console.ReadLine());
+            double numberSearch = double.Parse(Console.ReadLine());
 
             // Busca o numero na matriz e informa sua posição
             for (int i = 0; i < int.Parse(dimentions[0]); i++)
             {
                 for (int j = 0; j < int.Parse(dimentions[1]); j++)
                 {
-                    if (matrix[i,j] == numeroBusca)
+                    if (matrix[i,j] == numberSearch)
                     {
-                        Console.WriteLine("Posição: " + i +", "+j);
+                        Console.WriteLine("Position: " + i +", "+j);
                         if(i > 0)
                             Console.WriteLine("Up:" + matrix[i-1,j]);
                         if (i < matrix.Rank)
