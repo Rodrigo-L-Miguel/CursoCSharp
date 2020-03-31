@@ -1,0 +1,13 @@
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\bin\Debug\netcoreapp3.1\ExFixacaoMatriz.exe
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\bin\Debug\netcoreapp3.1\ExFixacaoMatriz.deps.json
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\bin\Debug\netcoreapp3.1\ExFixacaoMatriz.runtimeconfig.json
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\bin\Debug\netcoreapp3.1\ExFixacaoMatriz.runtimeconfig.dev.json
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\bin\Debug\netcoreapp3.1\ExFixacaoMatriz.dll
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\bin\Debug\netcoreapp3.1\ExFixacaoMatriz.pdb
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\obj\Debug\netcoreapp3.1\ExFixacaoMatriz.csprojAssemblyReference.cache
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\obj\Debug\netcoreapp3.1\ExFixacaoMatriz.csproj.CoreCompileInputs.cache
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\obj\Debug\netcoreapp3.1\ExFixacaoMatriz.AssemblyInfoInputs.cache
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\obj\Debug\netcoreapp3.1\ExFixacaoMatriz.AssemblyInfo.cs
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\obj\Debug\netcoreapp3.1\ExFixacaoMatriz.dll
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\obj\Debug\netcoreapp3.1\ExFixacaoMatriz.pdb
+C:\CursoCSharp\ExFixacaoMatriz\ExFixacaoMatriz\obj\Debug\netcoreapp3.1\ExFixacaoMatriz.genruntimeconfig.cache
