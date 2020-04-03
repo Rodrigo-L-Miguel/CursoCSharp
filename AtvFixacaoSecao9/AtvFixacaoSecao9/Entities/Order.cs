@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 using AtvFixacaoSecao9.Entities.Enums;
 
@@ -7,7 +8,7 @@ namespace AtvFixacaoSecao9.Entities
 {
     class Order
     {
-        public DateTime Date { get; set; }
+        public DateTime Moment { get; set; }
         public OrderStatus OrderStatus { get; set; }
         public Client Client { get; set; }
 
@@ -15,12 +16,12 @@ namespace AtvFixacaoSecao9.Entities
 
         public Order()
         {
-            Date = DateTime.Now;
+            Moment = DateTime.Now;
         }
 
         public Order(OrderStatus orderStatus, Client client)
         {
-            Date = DateTime.Now;
+            Moment = DateTime.Now;
             OrderStatus = orderStatus;
             Client = client;
         }
@@ -53,6 +54,22 @@ namespace AtvFixacaoSecao9.Entities
                 Console.WriteLine(item);
             }
         }
-        
+
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Order moment: " + Moment.ToString("dd/MM/yyyy HH:mm:ss"));
+            sb.AppendLine("Order status: " + OrderStatus);
+            sb.AppendLine("Client: " + Client);
+            sb.AppendLine("Order items:");
+            foreach (OrderItem item in OrderItems)
+            {
+                sb.AppendLine(item.ToString());
+            }
+            sb.AppendLine("Total price: $" + Total().ToString("F2", CultureInfo.InvariantCulture));
+
+            return sb.ToString();
+        }
     }
 }

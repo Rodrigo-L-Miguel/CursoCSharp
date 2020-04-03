@@ -39,17 +39,12 @@ namespace AtvFixacaoSecao9
                 Console.Write("Quantity: ");
                 int productQuantity = int.Parse(Console.ReadLine());
                 Product product = new Product(productName, price);
-                OrderItem item = new OrderItem(productQuantity, product);
+                OrderItem item = new OrderItem(productQuantity, price, product);
                 order.AddItem(item);
             }
-
+            Console.WriteLine();
             Console.WriteLine("ORDER SUMMARY:");
-            Console.WriteLine("Order moment:" + order.Date);
-            Console.WriteLine("Order status: " + order.OrderStatus);
-            Console.WriteLine("Client: " + order.Client.ToString());
-            Console.WriteLine("Order Items: ");
-            order.PrintItens();
-            Console.WriteLine("Total price:" + order.Total());
+            Console.WriteLine(order);
 
 
 
