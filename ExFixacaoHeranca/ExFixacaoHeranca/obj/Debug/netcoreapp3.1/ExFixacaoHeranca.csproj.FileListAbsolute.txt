@@ -1,0 +1,13 @@
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\bin\Debug\netcoreapp3.1\ExFixacaoHeranca.exe
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\bin\Debug\netcoreapp3.1\ExFixacaoHeranca.deps.json
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\bin\Debug\netcoreapp3.1\ExFixacaoHeranca.runtimeconfig.json
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\bin\Debug\netcoreapp3.1\ExFixacaoHeranca.runtimeconfig.dev.json
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\bin\Debug\netcoreapp3.1\ExFixacaoHeranca.dll
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\bin\Debug\netcoreapp3.1\ExFixacaoHeranca.pdb
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\obj\Debug\netcoreapp3.1\ExFixacaoHeranca.csprojAssemblyReference.cache
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\obj\Debug\netcoreapp3.1\ExFixacaoHeranca.csproj.CoreCompileInputs.cache
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\obj\Debug\netcoreapp3.1\ExFixacaoHeranca.AssemblyInfoInputs.cache
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\obj\Debug\netcoreapp3.1\ExFixacaoHeranca.AssemblyInfo.cs
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\obj\Debug\netcoreapp3.1\ExFixacaoHeranca.dll
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\obj\Debug\netcoreapp3.1\ExFixacaoHeranca.pdb
+C:\CursoCSharp\ExFixacaoHeranca\ExFixacaoHeranca\obj\Debug\netcoreapp3.1\ExFixacaoHeranca.genruntimeconfig.cache
