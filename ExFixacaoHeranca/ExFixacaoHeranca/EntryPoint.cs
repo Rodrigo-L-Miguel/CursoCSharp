@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using ExFixacaoHeranca.Entities;
+using System.Globalization;
 
 namespace ExFixacaoHeranca
 {
@@ -22,13 +23,13 @@ namespace ExFixacaoHeranca
                 string name = Console.ReadLine();
 
                 Console.Write("Price: ");
-                double price = double.Parse(Console.ReadLine());
+                double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
                 switch (ch)
                 {
                     case 'i':
                         Console.Write("Customs fee: ");
-                        double fee = double.Parse(Console.ReadLine());
+                        double fee = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
                         list.Add(new ImportedProduct(name, price, fee));
                         break;
 

@@ -1,4 +1,4 @@
-﻿
+﻿using System.Globalization;
 
 namespace ExFixacaoHeranca.Entities
 {
@@ -17,7 +17,7 @@ namespace ExFixacaoHeranca.Entities
 
         public virtual string PriceTag()
         {
-            return Name + " $ " + Price;
+            return Name + " $ " + Price.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }

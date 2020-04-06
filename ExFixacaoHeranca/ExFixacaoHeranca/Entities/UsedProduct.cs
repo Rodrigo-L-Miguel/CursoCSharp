@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Globalization;
 
 namespace ExFixacaoHeranca.Entities
 {
@@ -18,7 +17,7 @@ namespace ExFixacaoHeranca.Entities
 
         public override string PriceTag()
         {
-            return Name + "(Used) $" + Price + " (Manufacture date: " + ManufactureDate.ToString("dd/MM/yyyy");
+            return Name + "(Used) $" + Price.ToString("F2", CultureInfo.InvariantCulture) + " (Manufacture date: " + ManufactureDate.ToString("dd/MM/yyyy")+ ")";
         }
 
     }

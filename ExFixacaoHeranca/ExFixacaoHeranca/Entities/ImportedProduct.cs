@@ -1,4 +1,4 @@
-﻿
+﻿using System.Globalization;
 
 namespace ExFixacaoHeranca.Entities
 {
@@ -16,7 +16,7 @@ namespace ExFixacaoHeranca.Entities
 
         public override string PriceTag()
         {
-            return base.PriceTag() + " (Customs fee: $ " + TotalPrice() + ")";
+            return base.PriceTag() + " (Customs fee: $ " + TotalPrice().ToString("F2",CultureInfo.InvariantCulture) + ")";
 
         }
 
