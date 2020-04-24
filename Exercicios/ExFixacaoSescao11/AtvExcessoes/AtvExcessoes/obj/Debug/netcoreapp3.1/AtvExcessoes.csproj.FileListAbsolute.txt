@@ -1,0 +1,13 @@
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\bin\Debug\netcoreapp3.1\AtvExcessoes.exe
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\bin\Debug\netcoreapp3.1\AtvExcessoes.deps.json
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\bin\Debug\netcoreapp3.1\AtvExcessoes.runtimeconfig.json
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\bin\Debug\netcoreapp3.1\AtvExcessoes.runtimeconfig.dev.json
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\bin\Debug\netcoreapp3.1\AtvExcessoes.dll
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\bin\Debug\netcoreapp3.1\AtvExcessoes.pdb
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\obj\Debug\netcoreapp3.1\AtvExcessoes.csprojAssemblyReference.cache
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\obj\Debug\netcoreapp3.1\AtvExcessoes.csproj.CoreCompileInputs.cache
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\obj\Debug\netcoreapp3.1\AtvExcessoes.AssemblyInfoInputs.cache
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\obj\Debug\netcoreapp3.1\AtvExcessoes.AssemblyInfo.cs
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\obj\Debug\netcoreapp3.1\AtvExcessoes.dll
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\obj\Debug\netcoreapp3.1\AtvExcessoes.pdb
+C:\CursoCSharp\ExFixacaoSescao11\AtvExcessoes\AtvExcessoes\obj\Debug\netcoreapp3.1\AtvExcessoes.genruntimeconfig.cache
